@@ -25,5 +25,3 @@ So you are dabbling with Machine Learning. You've got Hacking Skills. Maybe you'
 <br>
 
 <b>Please</b> don't sell yourself as a Machine Learning expert while you're still in the Danger Zone. Don't build bad products or publish junk science. (Also please don't be evil.) This guide can't tell you how you'll know you've "made it" into Machine Learning competence ... let alone expertise. It's hard to evaluate proficiency without schools or other institutions. This is a common problem for self-taught people.
-
-<img width="1920" alt="4" src="https://user-images.githubusercontent.com/44236850/116789376-b61ddb80-aad8-11eb-91dd-436dc1e1b623.png">
