@@ -11,6 +11,12 @@ Maybe this is a way to check your progress: ask yourself, does Deep Learning see
 ## Have Fun
 So you are dabbling with Machine Learning. You've got Hacking Skills. Maybe you've got some "knowledge" in Domingos' sense (some "Substantive Expertise" or "Domain Knowledge"). This diagram is modified slightly from Drew Conway's "Data Science Venn Diagram." It isn't a perfect fit for us, but it may get the point across:
 
-![29441268-f429d88c-837e-11e7-83ff-30874d832c89](https://user-images.githubusercontent.com/44236850/116783237-dbe6b880-aab7-11eb-8293-9929d13452ba.png)
+<br>
 
-Please don't sell yourself as a Machine Learning expert while you're still in the Danger Zone. Don't build bad products or publish junk science. (Also please don't be evil.) This guide can't tell you how you'll know you've "made it" into Machine Learning competence ... let alone expertise. It's hard to evaluate proficiency without schools or other institutions. This is a common problem for self-taught people.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/44236850/116783237-dbe6b880-aab7-11eb-8293-9929d13452ba.png"</a>
+</p>
+
+<br>
+
+<b>Please</b> don't sell yourself as a Machine Learning expert while you're still in the Danger Zone. Don't build bad products or publish junk science. (Also please don't be evil.) This guide can't tell you how you'll know you've "made it" into Machine Learning competence ... let alone expertise. It's hard to evaluate proficiency without schools or other institutions. This is a common problem for self-taught people.
