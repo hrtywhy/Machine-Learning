@@ -6,9 +6,12 @@ In machine learning, computers apply statistical learning techniques to automati
 
 One example of a machine learning method is a decision tree. Decision trees look at one variable at a time and are a reasonably accessible (though rudimentary) machine learning method.
 
-"A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on t, as measured by P, improves with experience E"
+```
+A computer program is said to learn from experience E with respect to some task T and some performance measure P, 
+if its performance on t, as measured by P, improves with experience E
 
 ~ Tom Mitchell ~
+```
 
 # Deep Learning
 <img width="1920" alt="7 (1)" src="https://user-images.githubusercontent.com/44236850/116789347-94245900-aad8-11eb-8f04-e67762239868.png">
