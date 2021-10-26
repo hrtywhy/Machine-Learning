@@ -1,33 +1,35 @@
 # Machine-Learning
 
 <img width="1920" alt="7" src="https://user-images.githubusercontent.com/44236850/116789295-6212f700-aad8-11eb-8f55-9d8c93f85903.png">
+<p>
+<p>
 
-In machine learning, computers apply statistical learning techniques to automatically identify patterns in data. These techniques can be used to make highly accurate predictions. Finding patterns in data is where machine learning comes in. Machine learning methods use statistical learning to identify boundaries. 
+Secara garis besar ada tiga tipe algoritma utama Machine Learning:
 
-One example of a machine learning method is a decision tree. Decision trees look at one variable at a time and are a reasonably accessible (though rudimentary) machine learning method.
-
-```
-A computer program is said to learn from experience E with respect to some task T and some performance measure P, 
-if its performance on t, as measured by P, improves with experience E
-
-~ Tom Mitchell ~
-```
-
-# Deep Learning
-
-In early editions of this guide, there was no specific "Deep Learning" section. I omitted it intentionally. I think it is not effective for us to jump too far ahead. I also know that if you become an expert in traditional Machine Learning, you'll be capable of moving onto advanced subjects like Deep Learning, whether or not I've put that in this guide. We're just trying to get you started here!
-
-Maybe this is a way to check your progress: ask yourself, does Deep Learning seem like magic? If so, take that as a sign that you aren't ready to work with it professionally. Let the fascination motivate you to learn more. I have read some argue you can learn Deep Learning in isolation; I have read others recommend it's best to master traditional Machine Learning first. Why not start with traditional Machine Learning, and develop your reasoning and intuition there? You'll only have an easier time learning Deep Learning after that. After all of it, you'll able to tackle all sorts of interesting problems.
-
-## Have Fun
-So you are dabbling with Machine Learning. You've got Hacking Skills. Maybe you've got some "knowledge" in Domingos' sense (some "Substantive Expertise" or "Domain Knowledge"). This diagram is modified slightly from Drew Conway's "Data Science Venn Diagram." It isn't a perfect fit for us, but it may get the point across:
-
+- <h4>Supervised Learning<h4>
+- <h4>Unsupervised Learning<h4>
+- <h4>Reinforcement Learning<h4>
 <br>
+<p>
+<p>
+1. <b>Supervised Learning</b><br>
+Supervised Learning adalah algoritma machine learning yang dalam proses belajarnya membutuhkan serangkaian contoh input-output yang benar, sebagai supervisor (pengawas/pelatih).<br>
+Contoh kasus pada Iris classification, kita memiliki sejumlah dataset sampel input berupa data panjang dan lebar sepal dan petal. Masing-masing sampel tersebut sudah memiliki output yang benar (memiliki label). Serangkaian sampel input-output ini kemudian digunakan untuk menge-train (melatih) algoritma kita, agar kelak dapat menghasilkan output (label) yang sesuai ketika diberikan masukan data baru. <br>
+Algoritma Supervised Learning ini sendiri juga dibagi lagi menjadi beberapa jenis algoritma tergantung dari task/tujuan dibentuknya algoritma, antara lain:
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/44236850/116783237-dbe6b880-aab7-11eb-8293-9929d13452ba.png"</a>
-</p>
+- Klasifikasi: Logistik Regression, Decision Trees, Random Forest, KNN, SVM, Neural Networks, Naïve Bayes, dll
+- Prediksi Numerik/Regresi: Linear Regression, Decision Trees, Neural Networks, SVM, Trees, dll
+<p>
+2. <b>Unsupervised Learning</b> <br>
+Unsupervised learning adalah algoritma machine learning yang dalam proses belajarnya, algoritma hanya diberikan sejumlah sampel masukan tanpa label (output yang benar). Sehingga pada algoritma ini, tidak ada supervisor/pelatih yang membantu dalam menentukan apakah kinerja dan output yang dihasilkan benar atau salah. <br>
+Contoh penggunaan algoritma ini adalah untuk segmentasi pasar. Misalkan suatu perusahaan X memiliki data usia, gender, pekerjaan, tempat tinggal, frekuensi pembelian, dan kuantitas pembelian dari pembeli produknya selama dua tahun terakhir. Data ini bisa digunakan oleh perusahaan X untuk melakukan segmentasi pasar berdasarkan data-data tadi. Dengan algoritma Unsupervised Learning, kita tidak perlu men-declare atau menetapkan ‘label’ atau ‘output yang benar’. Kita tidak perlu melabeli pembeli dengan usia, gender, dan kriteria tertentu ke dalam kelompok tertentu. Kita tidak perlu menentukan jumlah kelas/kelompok dan kriteria tiap kelompok. Di sini algoritma machine learning akan melihat dan mempelajari pola-pola dari karakteristik tiap data yang ada dan melakukan pengelompokan pembeli secara mandiri. <br>
+Untuk macam-macam algoritma unsupervised sendiri antara lain berdasarkan task/tujuan algoritmanya: <br>
 
-<br>
+- Klustering: K-Means Clustering, Hierarchical Clustering
+- Association: Association Rules
+<p>
+3. <b>Reinforcement Learning</b><br>
+Pada reinforcement learning, terdapat dua komponen utama yaitu agent dan environment. Di algoritma pembelajaran ini, agent ‘dipaksa’ untuk dengan sendirinya mempelajari bagaimana ia harus bertindak menghadapi environment-nya untuk mencapai tujuannya. Di sini tidak ada kumpulan dataset yang diberikan seperti pada Supervised Learning dan Unsupervised Learning. <br>
+Contohnya misal kita hendak membuat sebuah machine yang dapat bermain catur melawan Magnus Carlsen, sang Juara Catur Dunia. Tujuan dari machine ini adalah memenangkan pertandingan. Dengan Reinforcement Learning, machine bertindak sebagai agent. Bagaimana cara bermain catur, aturan mainnya, dan trik yang biasa digunakan Magnus Carlsen adalah environment, yang tentunya harus ia pelajari sendiri. Sehingga dalam kasus ini, si machine pokoknya harus bisa belajar dengan sendirinya meraba-raba environment yang ada biar menang. Titik. <br>
+Dalam proses belajarnya sendiri ia akan belajar dari pengalaman-pengalaman yang ia peroleh ketika bermain (tanpa kita ajarkan). Misalkan pengalaman ketika ia mendapatkan skak dari lawan ataupun pengalaman ketika ia berhasil memakan benteng lawan. Dari pengalaman-pengalaman ini, ia dipaksa belajar untuk memahami apa yang harus dan tidak boleh ia lakukan dalam menghadapi lawan dan membuat strateginya sendiri agar menang.
 
-<b>Please</b> don't sell yourself as a Machine Learning expert while you're still in the Danger Zone. Don't build bad products or publish junk science. (Also please don't be evil.) This guide can't tell you how you'll know you've "made it" into Machine Learning competence ... let alone expertise. It's hard to evaluate proficiency without schools or other institutions. This is a common problem for self-taught people.
